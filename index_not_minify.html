@@ -53,19 +53,420 @@
       content="Maquette de démonstration d'un festival du film. Ce site n'est pas fonctionnel."
     />
 
-
-
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
 
+    <style>
+      /* ############################################### */
+      /* ############################################### */
+      /* MULI CSS */
+      /* ############################################### */
+      /* ############################################### */
+      @font-face {
+        font-family: muli;
+        font-style: normal;
+        font-display: swap;
+        font-weight: 400;
+        src: url("./fonts/Muli-Regular.ttf") format("truetype");
+      }
+      /* ############################################### */
+      /* ############################################### */
+      /* FONT AWESOME CSS */
+      /* ############################################### */
+      /* ############################################### */
+      .fa,
+      .fas,
+      .far,
+      .fal,
+      .fab {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+      }
 
-<style>
-    @font-face{font-family:muli;font-style:normal;font-display:swap;font-weight:400;src:url(../fonts/Muli-Regular.ttf)f
-.fa,.fas,.far,.fal,.fab{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}.fa-2x{font-size:2em}.fa-envelope:before{content:"\f0e0"}.fa-linkedin-in:before{content:"\f0e1"}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}@font-face{font-family:"Font Awesome 5 Brands";font-style:normal;font-weight:normal;font-display:swap;src:url(../fonts/fa-brands-400.eot);src:url(../fonts/fa-brands-400.eot?#iefix)format("embedded-opentype"),url(../fonts/fa-brands-400.woff2)format("woff2"),url(../fonts/fa-brands-400.woff)format("woff"),url(../fonts/fa-brands-400.ttf)format("truetype"),url(../fonts/fa-brands-400.svg#fontawesome)format("svg")}.fab{font-family:"Font Awesome 5 Brands"}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-display:swap;font-weight:400;src:url(../fonts/fa-regular-400.eot);src:url(../fonts/fa-regular-400.eot?#iefix)format("embedded-opentype"),url(../fonts/fa-regular-400.woff2)format("woff2"),url(../fonts/fa-regular-400.woff)format("woff"),url(../fonts/fa-regular-400.ttf)format("truetype"),url(../fonts/fa-regular-400.svg#fontawesome)format("svg")}.far{font-family:"Font Awesome 5 Free";font-weight:400}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:900;font-display:swap;src:url(../fonts/fa-solid-900.eot);src:url(../fonts/fa-solid-900.eot?#iefix)format("embedded-opentype"),url(../fonts/fa-solid-900.woff2)format("woff2"),url(../fonts/fa-solid-900.woff)format("woff"),url(../fonts/fa-solid-900.ttf)format("truetype"),url(../fonts/fa-solid-900.svg#fontawesome)format("svg")}.fa,.fas{font-family:"Font Awesome 5 Free";font-weight:900}@font-face{font-family:"Font Awesome 5 Brands";font-style:normal;font-weight:normal;font-display:swap;src:url(../fonts/fa-brands-400.eot);src:url(../fonts/fa-brands-400.eot?#iefix)format("embedded-opentype"),url(../fonts/fa-brands-400.woff2)format("woff2"),url(../fonts/fa-brands-400.woff)format("woff"),url(../fonts/fa-brands-400.ttf)format("truetype"),url(../fonts/fa-brands-400.svg#fontawesome)format("svg")}.fab{font-family:"Font Awesome 5 Brands"}@font-face{font-family:"Font Awesome 5 Free";font-style:normal;font-weight:900;font-display:swap;src:url(../fonts/fa-solid-900.eot);src:url(../fonts/fa-solid-900.eot?#iefix)format("embedded-opentype"),url(../fonts/fa-solid-900.woff2)format("woff2"),url(../fonts/fa-solid-900.woff)format("woff"),url(../fonts/fa-solid-900.ttf)format("truetype"),url(../fonts/fa-solid-900.svg#fontawesome)format("svg")}.fa,.fas{font-family:"Font Awesome 5 Free";font-weight:900}  
-  @font-face{font-family:"The Godfather";font-display:swap;src:url(../fonts/The-Godfather.eot?)format("eot"),url(../fonts/The-Godfather.woff)format("woff"),url(../fonts/The-Godfather.ttf)format("truetype"),url(../fonts/The-Godfather.svg#Godfather)format("svg");font-weight:normal;font-style:normal}.jumbotron{background-color:transparent;color:white}hr{margin:40px auto;width:100px;height:2px;background-color:#6f333b;border:0;}.soustitre{font-size:25px;color:#fff;text-align:center;margin-bottom:150px}section h2{color:#202020;font-size:10px}.card{margin:auto auto 20px auto}.features .feature{padding-left:40px;margin:auto auto 20px auto;padding-top:20px}.features .feature i{padding-top:20px;left:15px;position:absolute;top:0;display:inline-block;color:#6f333b;font-size:28px}.features .feature p{opacity:0.75}footer a i{border:1px solid #7d7d7d;border-radius:10px;padding:10px;margin:0 10px 0 10px}h3{font-family:"Baloo Bhaijaan",Arial,Helvetica,sans-serif;font-size:28px;margin:20px 0 20px 0}body{font-family:Muli,Arial,Helvetica,sans-serif;padding-bottom:20px;color:#7d7d7d;background-color:lightgray}a{color:#6f333b}#navbar-main{background-color:rgba(32,47,54,.7)}#navbar-main a{text-shadow:0 1px 1px #777}a:hover{color:#a87d6a!important}.titre{font-family:"The Godfather","Baloo Bhaijaan",Arial,Helvetica,sans-serif;text-align:center;margin-top:100px;font-size:11vw;line-height:1;font-weight:normal;color:#eee;text-shadow:0 1px 1px #777,1px 2px 1px #777,1px 3px 1px #666,2px 4px 1px #666,2px 5px 1px #555,2px 5px 6px #666,2px 5px 12px #666}section{padding:100px 10px 20px 10px}h2.smalltitle{font-family:"The Godfather",Arial,Helvetica,sans-serif;position:relative;text-align:center;font-weight:500;margin-bottom:50px;color:#202f36}h2.smalltitle span{background:#202f36;display:block;height:2px;margin:20px auto 0;width:100px}h3.smalltitle{font-family:muli,Arial,Helvetica,sans-serif;font-weight:500;color:#6f333b}h4{font-family:muli,Arial,Helvetica,sans-serif;color:#6f333b}.section_alternance{background-color:rgba(170,153,146,.2)}.blockquote{font-size:15px;text-align:justify}.blockquote-footer{background-color:transparent}@media(min-width:1px){h2.smalltitle{font-size:25px}header{background:url(../img/width_576/fond2.jpg)no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover}}@media(min-width:576px){h2.smalltitle{font-size:30px}header{background:url(../img/width_576/fond2.jpg)no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover}}@media(min-width:768px){h2.smalltitle{font-size:35px}header{background:url(../img/width_768/fond2.jpg)no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover}}@media(min-width:992px){h2.smalltitle{font-size:45px}header{background:url(../img/width_992/fond2.jpg)no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover}}@media(min-width:1200px){h2.smalltitle{font-size:45px}header{background:url(../img/width_1200/fond2.jpg)no-repeat center center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover}}.box{background-color:white;border-radius:10px;padding:15px;margin-bottom:40px}.box img{border-radius:10px}footer{background-color:#202f36;padding:40px 0 40px 0}
-</style>
+      .fa-2x {
+        font-size: 2em;
+      }
 
+      .fa-envelope:before {
+        content: "\f0e0";
+      }
+
+      .fa-linkedin-in:before {
+        content: "\f0e1";
+      }
+
+      .fa-calendar-plus:before {
+        content: "\f271"; }
+
+      .sr-only {
+        border: 0;
+        clip: rect(0, 0, 0, 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+
+      .sr-only-focusable:active,
+      .sr-only-focusable:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto;
+      }
+      @font-face {
+        font-family: "Font Awesome 5 Brands";
+        font-style: normal;
+        font-weight: normal;
+        font-display: swap;
+        src: url("./fonts/fa-brands-400.eot");
+        src: url("./fonts/fa-brands-400.eot?#iefix")
+            format("embedded-opentype"),
+          url("./fonts/fa-brands-400.woff2") format("woff2"),
+          url("./fonts/fa-brands-400.woff") format("woff"),
+          url("./fonts/fa-brands-400.ttf") format("truetype"),
+          url("./fonts/fa-brands-400.svg#fontawesome") format("svg");
+      }
+
+      .fab {
+        font-family: "Font Awesome 5 Brands";
+      }
+      @font-face {
+        font-family: "Font Awesome 5 Free";
+        font-style: normal;
+        font-display: swap;
+        font-weight: 400;
+        src: url("./fonts/fa-regular-400.eot");
+        src: url("./fonts/fa-regular-400.eot?#iefix")
+            format("embedded-opentype"),
+          url("./fonts/fa-regular-400.woff2") format("woff2"),
+          url("./fonts/fa-regular-400.woff") format("woff"),
+          url("./fonts/fa-regular-400.ttf") format("truetype"),
+          url("./fonts/fa-regular-400.svg#fontawesome") format("svg");
+      }
+
+      .far {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: "Font Awesome 5 Free";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url("./fonts/fa-solid-900.eot");
+        src: url("./fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+          url("./fonts/fa-solid-900.woff2") format("woff2"),
+          url("./fonts/fa-solid-900.woff") format("woff"),
+          url("./fonts/fa-solid-900.ttf") format("truetype"),
+          url("./fonts/fa-solid-900.svg#fontawesome") format("svg");
+      }
+
+      .fa,
+      .fas {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+      }
+
+      /* brands
+
+*/
+      @font-face {
+        font-family: "Font Awesome 5 Brands";
+        font-style: normal;
+        font-weight: normal;
+        font-display: swap;
+        src: url("./fonts/fa-brands-400.eot");
+        src: url("./fonts/fa-brands-400.eot?#iefix")
+            format("embedded-opentype"),
+          url("./fonts/fa-brands-400.woff2") format("woff2"),
+          url("./fonts/fa-brands-400.woff") format("woff"),
+          url("./fonts/fa-brands-400.ttf") format("truetype"),
+          url("./fonts/fa-brands-400.svg#fontawesome") format("svg");
+      }
+
+      .fab {
+        font-family: "Font Awesome 5 Brands";
+      }
+      /*solid*/
+
+      @font-face {
+        font-family: "Font Awesome 5 Free";
+        font-style: normal;
+        font-weight: 900;
+        font-display: swap;
+        src: url("./fonts/fa-solid-900.eot");
+        src: url("./fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+          url("./fonts/fa-solid-900.woff2") format("woff2"),
+          url("./fonts/fa-solid-900.woff") format("woff"),
+          url("./fonts/fa-solid-900.ttf") format("truetype"),
+          url("./fonts/fa-solid-900.svg#fontawesome") format("svg");
+      }
+
+      .fa,
+      .fas {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+      }
+      /* ############################################### */
+      /* ############################################### */
+      /* MAIN CSS */
+      /* ############################################### */
+      /* ############################################### */
+      @font-face {
+        font-family: "The Godfather";
+        font-display: swap;
+        src: url("./fonts/The-Godfather.eot?") format("eot"),
+          url("./fonts/The-Godfather.woff") format("woff"),
+          url("./fonts/The-Godfather.ttf") format("truetype"),
+          url("./fonts/The-Godfather.svg#Godfather") format("svg");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      .jumbotron {
+        background-color: transparent;
+        color: white;
+      }
+
+      hr {
+        margin: 40px auto;
+        width: 100px;
+        height: 2px;
+        background-color: #6f333b;
+        border: none; /*on supprime le style par défaut*/
+      }
+      .soustitre {
+        font-size: 25px;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 150px;
+      }
+
+
+      /*btn_primary*/
+      .btn-primaryM {
+        color: #fff;
+        background-color: #6f333b;
+        border-color: #6f333b;
+      }
+      
+      .btn-primaryM:hover {
+        color: #fff;
+        background-color: #a87d6a;
+        border-color: #a87d6a;
+      }
+      
+      .btn-primaryM:focus, .btn-primaryM.focus {
+        box-shadow: 0 0 0 0.2rem rgba(111, 51, 59, 0.5);
+      }
+
+      section h2 {
+        color: #202020;
+        font-size: 10px;
+      }
+
+      .card {
+        margin: auto auto 20px auto;
+      }
+
+      /* Features
+================================================== */
+
+      .features .feature {
+        padding-left: 40px;
+        margin: auto auto 20px auto;
+        padding-top: 20px;
+      }
+      .features .feature i {
+        padding-top: 20px;
+
+        left: 15px;
+        position: absolute;
+        top: 0;
+        display: inline-block;
+        color: #6f333b;
+        font-size: 28px;
+      }
+
+      .features .feature p {
+        opacity: 0.75;
+      }
+
+      footer a i {
+        border: 1px solid #7d7d7d;
+
+        border-radius: 10px;
+
+        padding: 10px;
+        margin: 0 10px 0 10px;
+      }
+
+      h3 {
+        font-family: "Baloo Bhaijaan", Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        margin: 20px 0 20px 0;
+      }
+
+      body {
+        font-family: Muli, Arial, Helvetica, sans-serif;
+
+        padding-bottom: 20px;
+        color: #7d7d7d;
+        background-color: lightgray;
+      }
+      a {
+        color: #6f333b;
+      }
+      #navbar-main {
+        background-color: rgba(32, 47, 54, 0.7);
+      }
+      #navbar-main a {
+        text-shadow: 0 1px 1px #777;
+      }
+      a:hover {
+        color: #a87d6a !important;
+      }
+      .titre {
+        font-family: "The Godfather", "Baloo Bhaijaan", Arial, Helvetica,
+          sans-serif;
+
+        text-align: center;
+        margin-top: 100px;
+        font-size: 11vw;
+        line-height: 1;
+        font-weight: normal;
+        color: #eee;
+        text-shadow: 0 1px 1px #777, 1px 2px 1px #777, 1px 3px 1px #666,
+          2px 4px 1px #666, 2px 5px 1px #555, 2px 5px 6px #666,
+          2px 5px 12px #666;
+      }
+      section {
+        padding: 100px 10px 20px 10px;
+      }
+
+      h2.smalltitle {
+        font-family: "The Godfather", Arial, Helvetica, sans-serif;
+        position: relative;
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 50px;
+        color: #202f36;
+      }
+      h2.smalltitle span {
+        background: #202f36;
+        display: block;
+        height: 2px;
+        margin: 20px auto 0;
+        width: 100px;
+      }
+      h3.smalltitle {
+        font-family: muli, Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        color: #6f333b;
+      }
+      h4 {
+        font-family: muli, Arial, Helvetica, sans-serif;
+        color: #6f333b;
+      }
+      .section_alternance {
+        background-color: rgba(170, 153, 146, 0.2);
+      }
+      .blockquote {
+        font-size: 15px;
+        text-align: justify;
+      }
+      .blockquote-footer {
+        background-color: transparent;
+      }
+      @media (min-width: 1px) {
+        h2.smalltitle {
+          font-size: 25px;
+        }
+        header {
+          background: url("./img/width_576/fond2.jpg") no-repeat center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+          -o-background-size: cover;
+        }
+      }
+
+      @media (min-width: 576px) {
+        h2.smalltitle {
+          font-size: 30px;
+        }
+        header {
+          background: url("./img/width_576/fond2.jpg") no-repeat center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+          -o-background-size: cover;
+        }
+      }
+
+      @media (min-width: 768px) {
+        h2.smalltitle {
+          font-size: 35px;
+        }
+        header {
+          background: url("./img/width_768/fond2.jpg") no-repeat center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+          -o-background-size: cover;
+        }
+      }
+
+      @media (min-width: 992px) {
+        h2.smalltitle {
+          font-size: 45px;
+        }
+        header {
+          background: url("./img/width_992/fond2.jpg") no-repeat center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+          -o-background-size: cover;
+        }
+      }
+
+      @media (min-width: 1200px) {
+        h2.smalltitle {
+          font-size: 45px;
+        }
+        header {
+          background: url("./img/width_1200/fond2.jpg") no-repeat center center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+          -o-background-size: cover;
+        }
+      }
+      .box {
+        background-color: white;
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 40px;
+      }
+      .box img {
+        border-radius: 10px;
+      }
+      footer {
+        background-color: #202f36;
+        padding: 40px 0 40px 0;
+      }
+    </style>
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="10">
@@ -429,7 +830,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card" style="width: 18rem;">
               <img
                 class="card-img-top"
@@ -454,12 +855,11 @@
                   class="card-link float-right"
                   >Voir le détail</a
                 >
-                <a href="#preinscription" class="card-link">Préinscription</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card" style="width: 18rem;">
               <img
                 class="card-img-top"
@@ -484,12 +884,11 @@
                   class="card-link float-right"
                   >Voir le détail</a
                 >
-                <a href="#preinscription" class="card-link">Préinscription</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card" style="width: 18rem;">
               <img
                 class="card-img-top"
@@ -501,25 +900,31 @@
                 <p class="card-text">Réalisation : F. F. COPOLA</p>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item list-group-item-success">
-                  Le 05/08/2019 à 22h00
-                </li>
-                <li class="list-group-item list-group-item-warning">
-                  Le 07/08/2019 à 22h00
-                </li>
-              </ul>
+                  <li class="list-group-item list-group-item-warning">
+                      <div class="d-flex w-100 justify-content-between">
+                          <span class="mb-1"  title="Attention, la scéance est bientôt complète">Le 05/08/2019 à 22h00</span>
+                          <a href="#preinscription" title="Préinscription" ><i class="fas fa-calendar-plus "></i></a>
+                      </div>                  
+                  </li>
+                  <li class="list-group-item list-group-item-success">
+                      <div class="d-flex w-100 justify-content-between">
+                          <span class="mb-1" >Le 07/08/2019 à 22h00</span>
+                          <a href="#preinscription" title="Préinscription" ><i class="fas fa-calendar-plus "></i></a>
+                      </div>                  
+                  </li>
+                </ul>                   
+
               <div class="card-body">
                 <a
                   href="http://www.allocine.fr/film/fichefilm_gen_cfilm=1628.html"
                   class="card-link float-right"
                   >Voir le détail</a
                 >
-                <a href="#preinscription" class="card-link">Préinscription</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card" style="width: 18rem;">
               <img
                 class="card-img-top"
@@ -531,25 +936,31 @@
                 <p class="card-text">Réalisation : F. F. COPOLA</p>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item list-group-item-danger">
-                  Le 06/08/2019 à 18h00
-                </li>
                 <li class="list-group-item list-group-item-success">
-                  Le 08/08/2019 à 18h00
+                    <div class="d-flex w-100 justify-content-between">
+                        <span class="mb-1">Le 06/08/2019 à 18h00</span>
+                        <a href="#preinscription" title="Préinscription" ><i class="fas fa-calendar-plus "></i></a>
+                    </div>                  
                 </li>
-              </ul>
+                <li class="list-group-item list-group-item-warning">
+                    <div class="d-flex w-100 justify-content-between">
+                        <span class="mb-1"  title="Attention, la scéance est bientôt complète">Le 08/08/2019 à 18h00</span>
+                        <a href="#preinscription" title="Préinscription" ><i class="fas fa-calendar-plus "></i></a>
+                    </div>                  
+                </li>
+              </ul>               
+
               <div class="card-body">
                 <a
                   href="http://www.allocine.fr/film/fichefilm_gen_cfilm=27061.html"
                   class="card-link float-right"
                   >Voir le détail</a
                 >
-                <a href="#preinscription" class="card-link">Préinscription</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card" style="width: 18rem;">
               <img
                 class="card-img-top"
@@ -561,25 +972,29 @@
                 <p class="card-text">Réalisation : S. STALLONE</p>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item  list-group-item-warning">
-                  Le 06/08/2019 à 20h00
-                </li>
-                <li class="list-group-item list-group-item-warning">
-                  Le 08/08/2019 à 20h00
-                </li>
-              </ul>
+                  <li class="list-group-item list-group-item-success">
+                      <div class="d-flex w-100 justify-content-between">
+                          <span class="mb-1">Le 06/08/2019 à 20h00</span>
+                          <a href="#preinscription" title="Préinscription" ><i class="fas fa-calendar-plus "></i></a>
+                      </div>                  
+                  </li>
+                  <li class="list-group-item list-group-item-danger">
+                      <div class="d-flex w-100 justify-content-between">
+                          <span class="mb-1"  title="La scéance est complète">Le 08/08/2019 à 20h00</span>
+                      </div>                  
+                  </li>
+                </ul>              
               <div class="card-body">
                 <a
                   href="http://www.allocine.fr/film/fichefilm_gen_cfilm=222968.html"
                   class="card-link float-right"
                   >Voir le détail</a
                 >
-                <a href="#preinscription" class="card-link">Préinscription</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card" style="width: 18rem;">
               <img
                 class="card-img-top"
@@ -592,10 +1007,16 @@
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item list-group-item-success">
-                  Le 06/08/2019 à 22h00
+                    <div class="d-flex w-100 justify-content-between">
+                        <span class="mb-1">Le 06/08/2019 à 22h00</span>
+                        <a href="#preinscription" title="Préinscription" ><i class="fas fa-calendar-plus "></i></a>
+                    </div>                  
                 </li>
                 <li class="list-group-item list-group-item-danger">
-                  Le 08/08/2019 à 22h00
+                    <div class="d-flex w-100 justify-content-between">
+                        <span class="mb-1" title="La scéance est complète"  >Le 08/08/2019 à 22h00</span>
+                        
+                    </div>                  
                 </li>
               </ul>
               <div class="card-body">
@@ -604,7 +1025,6 @@
                   class="card-link float-right"
                   >Voir le détail</a
                 >
-                <a href="#preinscription" class="card-link">Préinscription</a>
               </div>
             </div>
           </div>
@@ -620,7 +1040,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card">
               <div class="card-header">GRAND TORINO</div>
               <div class="card-body">
@@ -648,7 +1068,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card">
               <div class="card-header">UN MONDE PARFAIT</div>
               <div class="card-body">
@@ -676,7 +1096,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card">
               <div class="card-header">LE PARRAIN</div>
               <div class="card-body">
@@ -704,7 +1124,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card">
               <div class="card-header">APOCALYPSE NOW</div>
               <div class="card-body">
@@ -734,7 +1154,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card">
               <div class="card-header">Creed - L'Héritage de Rocky Balboa</div>
               <div class="card-body">
@@ -762,7 +1182,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6">
             <div class="card">
               <div class="card-header">Rocky Balboa</div>
               <div class="card-body">
@@ -865,7 +1285,7 @@
                 </div>
               </div>
               <p></p>
-              <button class="btn btn-primary" type="submit">Envoyer</button>
+              <button class="btn btn-primaryM" type="submit">Envoyer</button>
             </form>
           </div>
           <div class="col-md-8"></div>
@@ -1026,7 +1446,7 @@
                     });
                 });
               </script>
-              <button class="btn btn-primary" type="submit">Envoyer</button>
+              <button class="btn btn-primaryM" type="submit">Envoyer</button>
             </form>
 
             <script>
@@ -1130,9 +1550,9 @@
           '<script src="js/vendor/jquery-1.11.2.min.js"><\/script>'
         );
     </script>
-
-    <script src="./js/vendor/bootstrap.min.js" async></script>
-
+    <script src="./js/vendor/util.min.js" async></script>
+    <script src="./js/vendor/carousel.min.js" async></script>
+    <script src="./js/vendor/scrollspy.min.js" async></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
