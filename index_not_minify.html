@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="#6f333b"/>
     <title>
       Maquette de démonstration du festival du film de plein air au parc Monceau
       à Paris
@@ -270,7 +271,29 @@
       .btn-primaryM:focus, .btn-primaryM.focus {
         box-shadow: 0 0 0 0.2rem rgba(111, 51, 59, 0.5);
       }
-
+      .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+        background-color: #6f333b;
+    }
+    .form-control:focus {
+      color: #495057;
+      background-color: #fff;
+      border-color: #a87d6a;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(111, 51, 59, 0.25);
+    }
+    .custom-control-input:checked ~ .custom-control-label::before {
+      color: #fff;
+      background-color: #6f333b;
+    }
+    
+    .custom-control-input:focus ~ .custom-control-label::before {
+      box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+    
+    .custom-control-input:active ~ .custom-control-label::before {
+      color: #fff;
+      background-color: #a87d6a;
+    }
       section h2 {
         color: #202020;
         font-size: 10px;
@@ -321,9 +344,12 @@
       body {
         font-family: Muli, Arial, Helvetica, sans-serif;
 
-        padding-bottom: 20px;
-        color: #7d7d7d;
+
+        color: #292828;
         background-color: lightgray;
+      }
+      .blockquote-footer {
+        color: #292828;
       }
       a {
         color: #6f333b;
@@ -464,6 +490,7 @@
       }
       footer {
         background-color: #202f36;
+        color:#b3afae;
         padding: 40px 0 40px 0;
       }
     </style>
@@ -633,6 +660,7 @@
                 <a
                   href="https://www.google.fr/maps/place/Parc+Monceau/@48.8796835,2.308955,15z/data=!4m2!3m1!1s0x0:0xe62425fddeddc402?ved=2ahUKEwja6qLMsK7eAhUNyxoKHa0tDtgQ_BIwDnoECAUQCA"
                   target="_blank"
+                  rel="noopener"
                 >
                   <img
                     class="img-thumbnail"
@@ -683,6 +711,7 @@
                 <a
                   href="https://fr.wikipedia.org/wiki/Francis_Ford_Coppola"
                   target="_blank"
+                  rel="noopener"
                   class="card-link float-right"
                   >Consulter Wikipédia &raquo;</a
                 >
@@ -703,6 +732,7 @@
                 <a
                   href="https://fr.wikipedia.org/wiki/Clint_Eastwood"
                   target="_blank"
+                  rel="noopener"
                   class="card-link float-right"
                   >Consulter Wikipédia &raquo;</a
                 >
@@ -723,6 +753,7 @@
                 <a
                   href="https://fr.wikipedia.org/wiki/Sylvester_Stallone"
                   target="_blank"
+                  rel="noopener"
                   class="card-link float-right"
                   >Consulter Wikipédia &raquo;</a
                 >
@@ -759,6 +790,7 @@
               </p>
               <p class="float-right">
                 <a href="https://www.senscritique.com/" target="_blank"
+                rel="noopener"
                   >Lire la suite &raquo;</a
                 >
               </p>
@@ -789,6 +821,7 @@
                 <a
                   href="https://fr.necropedia.org/necrologie/Clint_Eastwood"
                   target="_blank"
+                  rel="noopener"
                   >Lire la suite &raquo;</a
                 >
               </p>
@@ -813,6 +846,7 @@
               </p>
               <p class="float-right">
                 <a href="https://www.cinetrafic.fr/film-auteur" target="_blank"
+                rel="noopener"
                   >Lire la suite &raquo;</a
                 >
               </p>
@@ -852,6 +886,8 @@
               <div class="card-body">
                 <a
                   href="http://www.allocine.fr/film/fichefilm_gen_cfilm=135063.html"
+                  target="_blank"
+                  rel="noopener"
                   class="card-link float-right"
                   >Voir le détail</a
                 >
@@ -881,6 +917,9 @@
               <div class="card-body">
                 <a
                   href="http://www.allocine.fr/film/fichefilm_gen_cfilm=8966.html"
+                  target="_blank"
+                  rel="noopener"
+
                   class="card-link float-right"
                   >Voir le détail</a
                 >
@@ -917,6 +956,9 @@
               <div class="card-body">
                 <a
                   href="http://www.allocine.fr/film/fichefilm_gen_cfilm=1628.html"
+                  target="_blank"
+                  rel="noopener"
+
                   class="card-link float-right"
                   >Voir le détail</a
                 >
@@ -953,6 +995,9 @@
               <div class="card-body">
                 <a
                   href="http://www.allocine.fr/film/fichefilm_gen_cfilm=27061.html"
+                  target="_blank"
+                  rel="noopener"
+
                   class="card-link float-right"
                   >Voir le détail</a
                 >
@@ -987,6 +1032,9 @@
               <div class="card-body">
                 <a
                   href="http://www.allocine.fr/film/fichefilm_gen_cfilm=222968.html"
+                  target="_blank"
+                  rel="noopener"
+
                   class="card-link float-right"
                   >Voir le détail</a
                 >
@@ -1022,6 +1070,9 @@
               <div class="card-body">
                 <a
                   href="http://www.allocine.fr/film/fichefilm_gen_cfilm=109061.html"
+                  target="_blank"
+                  rel="noopener"
+
                   class="card-link float-right"
                   >Voir le détail</a
                 >
@@ -1250,7 +1301,7 @@
                 </div>
 
                 <div class="col-md-3 mb-3">
-                  <label for="validationCustom03">Nombre de places</label>
+                  <label for="exampleFormControlSelect1">Nombre de places</label>
                   <select class="form-control" id="exampleFormControlSelect1">
                     <option>1</option>
                     <option>2</option>
@@ -1435,17 +1486,7 @@
                 </div>
               </div>
               <p></p>
-              <script>
-                grecaptcha.ready(function() {
-                  grecaptcha
-                    .execute("6LcA3ncUAAAAAJQzM5cOvEmu09FyVVMEBvL4hqqJ", {
-                      action: "action_name"
-                    })
-                    .then(function(token) {
-                      // Verify the token on the server.
-                    });
-                });
-              </script>
+
               <button class="btn btn-primaryM" type="submit">Envoyer</button>
             </form>
 
@@ -1510,6 +1551,8 @@
                 <a
                   href="https://www.google.fr/maps/place/Parc+Monceau/@48.8796835,2.308955,15z/data=!4m2!3m1!1s0x0:0xe62425fddeddc402?ved=2ahUKEwja6qLMsK7eAhUNyxoKHa0tDtgQ_BIwDnoECAUQCA"
                   target="_blank"
+                  rel="noopener"
+
                 >
                   <img
                     class="img-thumbnail"
@@ -1531,11 +1574,12 @@
           </div>
           <div class="col-md-6 col-sm-12 text-center">
             <a href="mailto:jennifer.viala@festivaldufilm.org"
+            title="Envoyer un mail à jennifer.viala@festivaldufilm.org"   
               ><i class="fas fa-envelope fa-2x"></i
             ></a>
             <a
               href="https://www.linkedin.com/in/emmanuelsauvage1978/"
-              target="_blank"
+              title="Lien vers mon linkedin"  
               ><i class="fab fa-linkedin-in fa-2x"></i
             ></a>
           </div>
@@ -1543,13 +1587,7 @@
       </div>
     </footer>
     <!-- /container -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>
-      window.jQuery ||
-        document.write(
-          '<script src="js/vendor/jquery-1.11.2.min.js"><\/script>'
-        );
-    </script>
+    <script src="./js/vendor/jquery-1.12.4.min.js"></script>
     <script src="./js/vendor/util.min.js" async></script>
     <script src="./js/vendor/carousel.min.js" async></script>
     <script src="./js/vendor/scrollspy.min.js" async></script>
