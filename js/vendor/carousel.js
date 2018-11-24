@@ -1,6 +1,6 @@
 (function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('jquery'), require('./util.js')) :
-  typeof define === 'function' && define.amd ? define(['jquery', './util.js'], factory) :
+  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('jquery'), require('./util.min.js')) :
+  typeof define === 'function' && define.amd ? define(['jquery', './util.min.js'], factory) :
   (global.Carousel = factory(global.jQuery,global.Util));
 }(this, (function ($,Util) { 'use strict';
 
