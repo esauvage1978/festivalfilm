@@ -1,0 +1,32 @@
+
+Options -Indexes
+
+<IfModule mod_headers.c>
+Header set Content-Security-Policy "script-src 'self' https://www.googletagmanager.com/ https://www.google-analytics.com/ 'unsafe-inline'"
+Header add Strict-Transport-Security "max-age=31415926;includeSubDomains;"
+
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .html
+
+
+ErrorDocument 404 /erreurgenerique/404.html
+ErrorDocument 403 /erreurgenerique/403.html
+ErrorDocument 500 /erreurgenerique/500.html
+
+</IfModule>
+
+<FilesMatch "\.(js|css|gif|jpg|jpeg|png|ico)$">
+Header unset Cookie
+Header unset Set-Cookie
+
+Header set Cache-Control "max-age=31536000"
+
+Header set vary  "Accept-Encoding"
+Header append vary "User-Agent"
+Header append Cache-Control "public" 
+
+Header append Connection "Keep-Alive"
+Header append Keep-Alive "timeout=5, max=100"
+
+FileETag None
+</FilesMatch>
